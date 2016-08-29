@@ -1,8 +1,0 @@
-I:\Engenharia de software\projetos\Crud\Crud.objetos\bin\Debug\Crud.objetos.dll
-I:\Engenharia de software\projetos\Crud\Crud.objetos\bin\Debug\Crud.objetos.pdb
-I:\Engenharia de software\projetos\Crud\Crud.objetos\bin\Debug\Crud.objetos.xml
-I:\Engenharia de software\projetos\Crud\Crud.objetos\obj\Debug\Crud.objetos.Resources.resources
-I:\Engenharia de software\projetos\Crud\Crud.objetos\obj\Debug\Crud.objetos.vbproj.GenerateResource.Cache
-I:\Engenharia de software\projetos\Crud\Crud.objetos\obj\Debug\Crud.objetos.dll
-I:\Engenharia de software\projetos\Crud\Crud.objetos\obj\Debug\Crud.objetos.xml
-I:\Engenharia de software\projetos\Crud\Crud.objetos\obj\Debug\Crud.objetos.pdb
