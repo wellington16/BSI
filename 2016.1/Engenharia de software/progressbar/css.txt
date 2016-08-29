@@ -1,0 +1,28 @@
+   p [id ^ = "pProgress"] {
+        font-size: 12px importante;
+        font-weight: bold;
+        display: inline;
+        margin: 0;
+        padding: 0 0 0 10px;
+        color: # A00
+    }
+    progresso [id = "progress3"] {
+        display: block;
+        -webkit-appearance: none;
+    }
+
+    progresso [id = "progress3"] :: - webkit-progress-bar {
+        fundo: black;
+        border-radius: 50px;
+        padding: 2px;
+    }
+    progresso [id = "progress3"] :: - moz-progress-bar {  
+        fundo: black;
+        border-radius: 50px;
+        padding: 2px;
+    } 
+
+    progresso [id = "progress3"] :: - webkit-progress-value {
+        border-radius: 50px;
+        background: laranja;
+    }
