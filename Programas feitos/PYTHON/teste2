@@ -1,0 +1,14 @@
+w=[none,none,none,none,none]
+soma=0
+x=0
+while x < 5:
+  #  w=float(input("Média de %d" %(x)))
+    soma+= w[x]
+    x+=1
+    x=0
+    while x < 5: 
+       print ('A media de %d: %6.2f' % (x,soma/x))
+       x+=1
+       print ('A media é: %5.2.f' %(soma/x))
+#GFCMOTTA@GMAIL.COM
+       

@@ -1,0 +1,29 @@
+"""x=0
+final=[]
+l1=[1,2,3,4,1]
+l2=[1,4,6,8]
+duas_lista = l1[:]
+duas_lista.extend(l2)
+while x < len(duas_lista):
+    y=0
+    while y < len(final):
+        if duas_lista[x] == final[y]:
+            break
+        y+=1
+    else:
+        final.append(duas_lista[x])
+    x+=1 
+
+final=[]
+for i in l1:
+    if not(i in final):
+        final.append(i)
+for i in l2:
+    if not(i in final):
+        final.append(i)
+   
+
+print(final)"""
+
+dic={'cpf':{'1va':8,'2va':7,'3va':10}}
+cpf=input (Di
