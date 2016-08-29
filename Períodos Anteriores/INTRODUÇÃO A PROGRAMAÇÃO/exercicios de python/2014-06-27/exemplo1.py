@@ -1,0 +1,6 @@
+arq = open ("teste.txt", "w")
+arq.write ("Oi")
+arq.close ()
+arq = open ("teste.txt")
+x = arq.read()
+print (x)

@@ -1,0 +1,8 @@
+frase = input('Digite a frase: ')
+arq = open ("exercicio1.txt",'w')
+arq.write(frase)
+arq.close()
+arq = open ("exercicio1.txt",'r')
+x = arq.readline()
+arq.close()
+print (x)
