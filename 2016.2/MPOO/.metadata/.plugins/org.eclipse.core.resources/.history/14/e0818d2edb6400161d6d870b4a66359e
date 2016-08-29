@@ -1,0 +1,22 @@
+
+public class Carro {
+	
+	// Atributos
+	public String marca;
+	public int ano;
+	public int marcha;
+	public boolean ligado;
+	
+	//Métodos
+	public void ligar(){
+		System.out.println("Carro ligado.");
+	}
+	
+	public void desligar(){
+		System.out.println("Carro ligado.");
+		
+	}
+	public void trocarMarcha(){
+	
+	}
+}

@@ -1,0 +1,30 @@
+
+public class Carro {
+	
+	// Atributos
+	public String marca;
+	public int ano;
+	public int marcha;
+	public boolean ligado;
+	
+	//Métodos
+	public void ligar(){
+		if (this.ligado == false){
+		this.ligado = true;
+		System.out.println("Carro ligado.");
+		} else{
+			System.out.println("O carro já está ligado.");
+		}
+	}
+	
+	public void desligar(){
+		if(	this.ligado == true){
+			
+		}
+		System.out.println("Carro desligado.");
+		
+	}
+	public void trocarMarcha(){
+		System.out.println("Marcha Trocada.");
+	}
+}

@@ -1,0 +1,57 @@
+import javax.swing.JOptionPane;
+
+public class Carro {
+	
+	// Atributos
+	public String marca;
+	public int ano;
+	public int marcha;
+	public int velocidade;
+	public boolean ligado;
+	public boolean freio = true;
+	
+	//Métodos
+	public void ligar(){
+		if (this.ligado == false){
+		this.ligado = true;
+		JOptionPane.showMessageDialog(null, "Carro Ligado.");
+		//System.out.println("Carro ligado.");
+		} else{
+			System.out.println("O carro já está ligado.");
+		}
+	}
+	
+	public void acelerar(int velocidade){
+		if (this.ligado == true && this.freio == false){
+			if (this.marcha == 0 ){
+				JOptionPane.showMessageDialog(null, "Está em ponto morto.");
+			}else if (this.marcha == 1 ){
+				if(velocidade < 30){
+					this.velocidade = velocidade;
+					System.out.println(this.velocidade);
+				}
+			}else if (this.marcha == 2 ){
+				if(velocidade < 50){
+					this.velocidade = velocidade;
+					System.out.println(this.velocidade);
+				}
+			}
+				
+			this.velocidade = velocidade;
+			System.out.println(this.velocidade);
+		}
+	}
+	
+	public void desligar(){
+		if(	this.ligado == true){
+			this.ligado = true;
+			System.out.println("Carro desligado.");
+		}else{
+			System.out.println("O Carro não está ligado.");
+		}
+	}
+	public void trocarMarcha(){
+		System.out.println("Marcha Trocada.");
+	}
+	
+}
