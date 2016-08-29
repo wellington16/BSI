@@ -1,0 +1,20 @@
+Time 1
+andre
+fabio
+felipe
+ronaldo
+thiago
+
+Time 2
+alvaro
+arthur
+rodolfo
+rodrigo
+rogerio
+
+Time 3
+lucas
+rafael
+ricardo
+robson
+

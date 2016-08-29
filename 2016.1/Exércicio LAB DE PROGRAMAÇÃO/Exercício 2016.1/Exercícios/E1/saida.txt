@@ -1,0 +1,5 @@
+Caso 1: 43
+Caso 2: 16
+Caso 3: 23
+Caso 4: muito difícil
+

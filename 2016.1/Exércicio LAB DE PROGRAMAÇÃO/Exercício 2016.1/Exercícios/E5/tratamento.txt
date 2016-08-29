@@ -1,0 +1,19 @@
+string valorArquivo = leituraArquivo(string enderecoArquivo) 
+
+string [] lista = valorArquivo.split('\n');
+
+lista {5 3, 15342, 3 1, 123, 2 1, 11}
+
+int contador = 0;
+
+for(int i = 0 i < lista.size(); i++) 
+{
+	string [] listaParametros = "";
+	string [] listaParametros = lista[contador].split(" ");
+	string quantCaracteres = listaParametros [0];
+	string quantErros = listaParametros[1];
+	string numero = lista[i + 1];
+	
+	contador = contador + 2;
+	
+}
