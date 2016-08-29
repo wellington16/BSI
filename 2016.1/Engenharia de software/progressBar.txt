@@ -1,0 +1,24 @@
+var progressBar = $(".progress-bar");
+
+setInterval(addProgress, 1000);
+
+function addProgress() {
+  var width = progressBar.width() + 15;
+  progressBar.width(width);
+}
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<div class="container">
+  <br>
+  <h4 class="text-center">Importando arquivos</h4>
+  <div class="container">
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+        <span class="sr-only"></span>
+      </div>
+    </div>
+  </div>
+</div>

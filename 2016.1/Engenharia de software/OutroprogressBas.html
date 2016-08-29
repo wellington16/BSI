@@ -1,0 +1,54 @@
+
+<html>
+        <head>
+                <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+                <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+                <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/sunny/jquery-ui.css" type="text/css" />
+                <script type="text/javascript">
+                         function id( el ){  
+                                   return document.getElementById( el )  
+                         }  
+                         function changeDisplay( els, val ){  
+                                for( var i = 0 ; i < els.length ; i ++ ) {  
+                                        els[ i ].style.display = val;  
+                                }  
+                        }  
+                        function mostra( ps ){  
+                                //if( ps.length > i ) $( '#current' ) . html ( ps[ i ] . innerHTML ) ; 
+                                if( ps.length > i ) ps[ i ] . style . display = 'block' ;
+                                else window.clearInterval( intv );  
+                                $( document ) . ready ( function () {
+                                        $( '#progress' ) . progressbar({ value : i }) ;
+                                } ) ;
+                                i++;  
+                        }  
+                        var i = 0;  
+                        var intv = 0;  
+                        window.onload = function(){  
+                                var ps = id('sendedMails').getElementsByTagName('p');  
+                                changeDisplay( ps, 'none' );  
+                                intv = window.setInterval( mostra, 100, ps );  
+                        }  
+                </script>
+        </head>
+        <style type="text/css">
+                <!--
+                        .sended{
+                                display: none;
+                        }
+                -->
+        </style>
+        <body>
+                <div id="progress"></div>
+                <div id="current"></div>
+                <div id="sendedMails">
+                 <?php 
+                        for( $i = 0 ; $i <= 150 ; $i++ ) {
+$i) ;
+                                                
+
+						}
+                 ?>
+                </div>
+        </body>
+</html>
