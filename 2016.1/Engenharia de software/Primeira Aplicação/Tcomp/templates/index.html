@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <h1>TComp - BSI</h1>
+
+    </div>
+</div>
+<br/>
+<br/>
+
+<div id="carousel-example-generic text-center" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner text-center" role="listbox">
+        <div class="item active text-center">
+            <img src="/static/img/3.png">
+            <div class="carousel-caption">
+               ... 
+            </div>
+			
+        </div>
+        <div class="item text-center">
+            <img src="/static/img/4.png">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        ...
+    </div>
+
+</div>
+{% endblock content %}
