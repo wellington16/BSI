@@ -1,0 +1,32 @@
+package herança;
+
+public class ContaCorrente {
+		private double saldo;
+		public int conta;
+		
+		public double getSaldo() {
+			return saldo;
+		}
+		public void setSaldo(double saldo) {
+			this.saldo = saldo;
+			
+		}
+				
+		public void sacar(double valor){
+			this.setSaldo(this.getSaldo() - valor);
+			juros();
+		}
+		public void depositar(double valor){
+			this.setSaldo(this.getSaldo() + valor);
+			
+		}
+		
+		public void verSaldo(){
+			this.saldo -= 1;
+			System.out.println("Saldo = " + this.getSaldo());
+		}
+		
+		private void juros(){
+			this.saldo -= 1;
+		}
+}

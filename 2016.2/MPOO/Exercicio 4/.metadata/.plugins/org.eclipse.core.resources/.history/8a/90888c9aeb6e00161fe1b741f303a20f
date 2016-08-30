@@ -1,0 +1,7 @@
+package herança;
+
+public class ContaCorrente extends Conta{
+		private void juro(){
+			this.saldo -=1;
+		}
+}
