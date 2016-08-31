@@ -1,13 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class Programador extends Funcionário {
 	
-	 List<LinguagemProgramador> linguagem = List<LinguagemProgramador>();
+	List<String> lista = new ArrayList<String>();
+	
+	
 	
 	Programador(){
-		
-	linguagem = ;
 	}
 	
 	
