@@ -13,9 +13,21 @@ def menu():
 
     Bem-vindo ao Sistema de Vendas
 ------------------------------------
-   01 - Cliente
-   02 - Funcionário
-   03 - Fornecedor
+    # Cadastro
+       01 - Cliente
+       02 - Funcionário
+       03 - Fornecedor
+------------------------------------
+    # Controle de estoque
+       04 - Categorias
+       05 - Produto
+------------------------------------
+    # Relatório de Vendas
+       06 - Por Cliente
+       07 - Por Vendedor
+------------------------------------
+       08 - Aviso de Estoque Baixo
+       09 - Controle de Usuários e Acesso
 ------------------------------------
    0 - Sai
 ------------------------------------

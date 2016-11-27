@@ -196,10 +196,11 @@ def menuCliente():
      print("Nomes na agenda: %d\n" % len(cliente))
      return valida_cliente("Escolha uma opção: ",0,6)
     
-TrueFalse = True  
-while TrueFalse:
+trueFalse = True
+while trueFalse:
      opcao = menuCliente()
      if opcao == 0:
+        trueFalse = False
         import principal
         menu()
         break

@@ -194,12 +194,14 @@ def menuFornecedor():
 ------------------------------------
    0 - Sai
 ------------------------------------
- """
+ """)
      print("\nNomes na agenda: %d\n" % len(fornecedor))
      return validaFornecedor("Escolha uma opção: ",0,6)
-while True:
+trueFalse = True
+while trueFalse:
      opcao = menuFornecedor()
      if opcao == 0:
+        trueFalse = False
         import principal
         menu()
         break

@@ -178,10 +178,11 @@ def menuFuncionario():
                """)
      print("\nNomes na agenda: %d\n" % len(funcionario))
      return validaFuncionario("Escolha uma opção: ",0,6)
-
-while True:
+trueFalse = True
+while trueFalse:
      opcao = menuFuncionario()
      if opcao == 0:
+          trueFalse = False
           import principal
           menu()
           break
