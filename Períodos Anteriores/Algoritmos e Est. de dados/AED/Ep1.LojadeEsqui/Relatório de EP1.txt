@@ -1,0 +1,32 @@
+ O problema foi resolvido através de uma comparação de duas listas, onde uma estava ordenada e a outra não. 
+Desta forma foi possível saber com exatidão a posição e o trecho afetado.
+
+O código está divididos em três partes:
+
+- Criar a função "ordenacaoMSort";
+- Criar função "pista";
+- Leitura e traramento do arquivo de entrada
+
+    A função "ordenacaoMsort" pega a lista que pista recebe e ordena em grau Teta(n log 2n) no pior casou e devolve a lista ordenada para "pista".
+
+    A função "pista" por sua vez é a função principal que recebe uma lista do arquivo e que tem como variáveis "p", "L2", "pos" e "vazio", ainda na função
+    "pista" em #verifica a posição e o trecho afetado e #imprime o resultado vemos que o grau de complexidade de "pista" é de O(n^2).	 
+    
+    # "p" é o comprimento de cada lista que está dentro da lista que "pista" recebe
+    # "L2" é lista que vai ser comparada com a lista que foi ordenada na função "ordenacaoMSort", "L2" guarda
+os itens que vem após o cumprimento da lista, ou seja, o cumprimento de cada lista é deletado após sua leitura, 
+    # "pos" é posição do treço do afetado,   
+    # "vazio" é a variável que é utilizanda no "else" da função "pista" para transformar a lista de inteiros em uma lista de strings (o resultado).
+    
+    Após as variavéis temos o momento onde "ordenacaoMsort"é chamada,a #verifica a posição e o trecho afetado onde são comparadas as duas lista a "L" e "L2" de forma que se "L" estiver diferente de "L2" temos a posição se acontecer o contrário a função continua normalmente.
+    Posterior a #verifica a posição vem #imprime o resultado, onde verificamos e imprimimos, se tem pista afetada e se não tem, verificamos o final da entrada e imprimimos a posição e "vazio"(trecho ordenado).  
+
+
+    Em #abri o arquivo e ler, retira o "\n" e fecha o arquivo, é onde o programa faz a leitura do arquivo como string.
+
+    Em #transforma uma lista de strings em uma lista de inteiros, é onde pega o que foi lido em #abri o arquivo e ler, retira o "\n" e fecha o arquivo, e transforma em uma lista de inteiros, para que essa lista seja trabalhada dentro do programa e tem grau O(n).
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  

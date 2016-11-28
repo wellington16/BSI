@@ -1,0 +1,63 @@
+''' A função recursiva seguinte resolve o problema
+da ordenação para um vetor(lista)[p... r-1] de inteiros
+'''
+
+def sort(q,p, r, v):
+    if p < (r-1):
+        q = r - 1
+        sort(p, r, v)
+        intercala(p, q, r, v)
+'''
+a) Explique a diferença entre sort e a ordenação por intercalação;
+   R: A intercalção o algorimto tem  simetria no 'q', pois a uma divisão digamos mais exata
+   já o sort é muito assimetrico pois na variável 'q' a divisão divide também duas partes porém
+   uma bem assimetrica da outra.
+
+b) estime a complexidade de sort
+   R: o(n^2)
+    
+  
+2) Considere o seguinte algoritmo , que encontra um elemento maximode v[e..d],
+e <= d:
+'''
+def maximo(e, d, v):
+    if (e == d):
+        return v[d]
+    m = x = y = 0
+    
+    m = (e+d)// 2
+    x = maximo(e, m, v)
+    y = maximo(m+1, d , v)
+    if x >= y:
+        return x
+    else:
+        return y
+        
+# Soma total de chamadas recursivas s=(2^0 + 2^1 + 2^2 + ...+ 2logn)
+#                                  2s=( 2^1 + 2^2 + ...+ 2logn + 1)
+# reposta de chamadas recursivas = 2s - s = s =2(logn + 1) -1 = 2n- 1 ,logo ele é O(n)
+ 
+#outro modo:
+#calcular recursivivamente 2^n/2 
+#x= 2^n/2
+2^n= x*x --> n  Par
+2^n=2*x*x --> n impar
+
+#Estime o numero de  chamadas recursivas deste algoritmo
+    #R:  O(n)
+
+'''
+3) Descreva(portugues ou codigo) um algoritmo recusivo de tipo divisão e
+conquista que resolve um inteiro positivo e calcula 2^n. Estime o numero ed chama-
+das recursivas do sem algoritmo.
+'''
+def recursiva(num):
+    if num < 1:
+        pass
+    else:
+        resul = (2**int(num))
+        print(resul)
+    return (resul)
+recursiva(3)
+    
+        
