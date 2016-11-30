@@ -1,3 +1,4 @@
+import sys
 
 def validaMenuPrincipal(pergunta, inicio, fim):
      while True:
@@ -10,7 +11,6 @@ def validaMenuPrincipal(pergunta, inicio, fim):
 
 def menu():
      print("""
-
     Bem-vindo ao Sistema de Vendas
 ------------------------------------
     # Cadastro
@@ -34,10 +34,12 @@ def menu():
     """)
      return validaMenuPrincipal("Escolha uma opção: ",0,3)
 
+
 while True:
     opcao = menu()
+
     if opcao == 0:
-        break
+        sys.exit()
     elif opcao == 1:
         import cliente
         menu_cliente()
@@ -50,5 +52,3 @@ while True:
         import fornecedor
         menuFornecedor()
         break
-
-

@@ -156,7 +156,7 @@ def listaFornecedor():
          mostra_dadosFornecedor(e[0], e[1], e[2], e[3], e[4], e[5], e[6], e[7], e[8], e[9], e[10], e[11])
      print("------\n")
      
-def lêFornecedor():
+def leFornecedor():
      global fornecedor
      nome_arquivo = pede_nome_arquivo()
      arquivo = open(nome_arquivo, "r")
@@ -190,7 +190,7 @@ def menuFornecedor():
    03 - Apaga Fornecedor
    04 - Lista de Fornecedor
    05 - Grava arquivo do Fornecedor
-   06 - Lê arquivo do Fornecedor
+   06 - le arquivo do Fornecedor
 ------------------------------------
    0 - Sai
 ------------------------------------
@@ -216,4 +216,4 @@ while trueFalse:
      elif opcao== 5:
           gravaFornecedor()
      elif opcao == 6:
-          lêFornecedor()
+leFornecedor()

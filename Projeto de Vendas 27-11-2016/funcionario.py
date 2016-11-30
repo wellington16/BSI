@@ -137,7 +137,7 @@ def listaFuncionario():
          mostra_dadosFuncionario(e[0], e[1], e[2], e[3], e[4], e[5], e[6], e[7], e[8], e[9], e[10], e[11])
      print("------\n")
 
-def lêFuncionario():
+def leFuncionario():
      global funcionario
      nome_arquivo = pede_nome_arquivo()
      arquivo = open(nome_arquivo, "r")
@@ -170,11 +170,10 @@ def menuFuncionario():
    03 - Apaga Funcionário
    04 - Lista de Funcionário
    05 - Grava arquivo do Funcionário
-   06 - Lê arquivo do Funcionário
+   06 - le arquivo do Funcionário
 ------------------------------------
    0 - voltar
 ------------------------------------
-
                """)
      print("\nNomes na agenda: %d\n" % len(funcionario))
      return validaFuncionario("Escolha uma opção: ",0,6)
@@ -197,19 +196,6 @@ while trueFalse:
      elif opcao == 5:
          gravaFuncionario()
      elif opcao == 6:
-         lêFuncionario()
-
-
-
-
-
-
-
-
-
-
-
-
-
+         leFuncionario()
 
 

@@ -152,7 +152,7 @@ def listaCliente():
 def pede_nome_arquivo():
      return(input("Nome do arquivo: "))
 
-def lêCliente():
+def leCliente():
      global cliente
      nome_arquivo = pede_nome_arquivo()
      arquivo = open(nome_arquivo, "r")
@@ -180,7 +180,6 @@ def valida_cliente(pergunta, inicio, fim):
 
 def menuCliente():
      print("""
-
     Manutenção de Clientes
 -----------------------------------
    01 - Cadastrar novo cliente
@@ -188,7 +187,7 @@ def menuCliente():
    03 - Apaga cliente
    04 - Lista de clientes
    05 - Grava arquivo do cliente
-   06 - Lê arquivo do cliente
+   06 - le arquivo do cliente
 ------------------------------------
    0 - voltar
 ------------------------------------
@@ -215,5 +214,4 @@ while trueFalse:
      elif opcao == 5:
           gravaCliente()
      elif opcao == 6:
-          lêCliente()
-        
+          leCliente()
