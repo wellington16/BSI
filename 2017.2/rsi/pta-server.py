@@ -17,7 +17,6 @@ from os.path import isfile, join
     Disciplina: Redes e Sistemas de Internet - 2017.2
     Professor: Glauco Gonçalves
     Prática 1 - PTA
-    título: Juvenal se perdeu.
     Executado em python 2.7
     
     obs: Fiz alguns ajustes no pta-client.py.
