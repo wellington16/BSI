@@ -1,2 +1,0 @@
-<progress id="progress3" max="100" value="0"></progress>
-<p id="pProgress3" ></p>
